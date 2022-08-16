@@ -104,7 +104,7 @@
             INSERT INTO User 
                 (user_username, user_name, user_lastname, user_email, user_password, user_image, user_category)
             VALUES 
-                ('CMMS', 'Christian Manuel', 'Moreno Saldaña', 'christianmanuelms@gmail.com', '".password_hash('Mamakaty332211.', PASSWORD_DEFAULT)."', 'cmms.jpg', 'admin');
+                ('CMMS', 'Christian Manuel', 'Moreno Saldaña', 'christianmanuelms@gmail.com', '".password_hash('AdminPassword', PASSWORD_DEFAULT)."', 'cmms.jpg', 'admin');
             ");
     } catch (PDOException $e) {
         echo "Error at user insertion: " . $e->getMessage();
