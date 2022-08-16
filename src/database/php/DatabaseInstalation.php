@@ -2,10 +2,10 @@
 
     $servername = "localhost";
     $dbname = "PortfolioCMMS";
-    $username = "root";
-    $password = "";
+    $username = "rootUser";
+    $password = "rootPass";
     $user = "AdminCMMS";
-    $pass = "Moreno2.";
+    $pass = "PasswordCMMS";
 
     try {
         $conn = new PDO("mysql:host=$servername;", $username, $password);
