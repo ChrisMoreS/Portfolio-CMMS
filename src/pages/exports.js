@@ -1,0 +1,1 @@
+export { InitialParalax } from "./initialParalax";

@@ -2,10 +2,10 @@
 
     $servername = "localhost";
     $dbname = "PortfolioCMMS";
-    $username = "rootUser";
-    $password = "rootPass";
+    $username = "root";
+    $password = "";
     $user = "AdminCMMS";
-    $pass = "PasswordCMMS";
+    $pass = "Moreno2.";
 
     try {
         $conn = new PDO("mysql:host=$servername;", $username, $password);
@@ -97,16 +97,5 @@
         echo "Tables created successfully.<br>";
     } catch (PDOException $e) {
         echo "Error at table creation: " . $e->getMessage();
-    }
-
-    try {
-        $conn->exec("
-            INSERT INTO User 
-                (user_username, user_name, user_lastname, user_email, user_password, user_image, user_category)
-            VALUES 
-                ('CMMS', 'Christian Manuel', 'Moreno Saldaña', 'christianmanuelms@gmail.com', '".password_hash('AdminPassword', PASSWORD_DEFAULT)."', 'cmms.jpg', 'admin');
-            ");
-    } catch (PDOException $e) {
-        echo "Error at user insertion: " . $e->getMessage();
     }
 ?>
