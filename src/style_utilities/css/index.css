@@ -55,23 +55,165 @@ src: url('../fonts/Roboto/Roboto-BlackItalic.ttf');
 
 /*
 
-7
+Karla FontFamily
 
 */
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: KarlaExtraBold;
+    src: url('../fonts/Karla/Karla-ExtraBold.ttf');
 }
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: KarlaExtraBoldIta;
+    src: url('../fonts/Karla/Karla-ExtraBoldItalic.ttf');
 }
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: KarlaBold;
+    src: url('../fonts/Karla/Karla-Bold.ttf');
 }
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: KarlaBoldIta;
+    src: url('../fonts/Karla/Karla-BoldItalic.ttf');
+}
+@font-face {
+    font-family: KarlaSemiBold;
+    src: url('../fonts/Karla/Karla-SemiBold.ttf');
+}
+@font-face {
+    font-family: KarlaSemiBoldIta;
+    src: url('../fonts/Karla/Karla-SemiBoldItalic.ttf');
+}
+@font-face {
+    font-family: Karla;
+    src: url('../fonts/Karla/Karla-Regular.ttf');
+}
+@font-face {
+    font-family: KarlaItalic;
+    src: url('../fonts/Karla/Karla-Italic.ttf');
+}
+@font-face {
+    font-family: KarlaMed;
+    src: url('../fonts/Karla/Karla-Medium.ttf');
+}
+@font-face {
+    font-family: KarlaMedIta;
+    src: url('../fonts/Karla/Karla-MediumItalic.ttf');
+}
+@font-face {
+    font-family: KarlaLight;
+    src: url('../fonts/Karla/Karla-Light.ttf');
+}
+@font-face {
+    font-family: KarlaLightIta;
+    src: url('../fonts/Karla/Karla-LightItalic.ttf');
+}
+@font-face {
+    font-family: KarlaExtraLight;
+    src: url('../fonts/Karla/Karla-ExtraLight.ttf');
+}
+@font-face {
+    font-family: KarlaExtraLightIta;
+    src: url('../fonts/Karla/Karla-ExtraLightItalic.ttf');
+}
+
+/*
+
+Oswald FontFamily
+
+*/
+
+@font-face {
+    font-family: OswaldBold;
+    src: url('../fonts/Oswald/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: OswaldSemiBold;
+    src: url('../fonts/Oswald/Oswald-SemiBold.ttf');
+}
+@font-face {
+    font-family: OswaldMed;
+    src: url('../fonts/Oswald/Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: OswaldLight;
+    src: url('../fonts/Oswald/Oswald-Light.ttf');
+}
+@font-face {
+    font-family: OswaldExtraLight;
+    src: url('../fonts/Oswald/Oswald-ExtraLight.ttf');
+}
+
+/*
+
+WorkSans FontFamily
+
+*/
+
+@font-face {
+    font-family: WorkSansBlack;
+    src: url('../fonts/Work_Sans/WorkSans-Black.ttf');
+}
+@font-face {
+    font-family: WorkSansBlackIta;
+    src: url('../fonts/Work_Sans/WorkSans-BlackItalic.ttf');
+}
+@font-face {
+    font-family: WorkSansExtraBold;
+    src: url('../fonts/Work_Sans/WorkSans-ExtraBold.ttf');
+}
+@font-face {
+    font-family: WorkSansExtraBoldIta;
+    src: url('../fonts/Work_Sans/WorkSans-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: WorkSansBold;
+    src: url('../fonts/Work_Sans/WorkSans-Bold.ttf');
+}
+@font-face {
+    font-family: WorkSansBoldIta;
+    src: url('../fonts/Work_Sans/WorkSans-BoldItalic.ttf');
+}
+@font-face {
+    font-family: WorkSansSemiBold;
+    src: url('../fonts/Work_Sans/WorkSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: WorkSansSemiBoldIta;
+    src: url('../fonts/Work_Sans/WorkSans-SemiBoldItalic.ttf');
+}
+@font-face {
+    font-family: WorkSansMed;
+    src: url('../fonts/Work_Sans/WorkSans-Medium.ttf');
+}
+@font-face {
+    font-family: WorkSansMedIta;
+    src: url('../fonts/Work_Sans/WorkSans-MediumItalic.ttf');
+}
+@font-face {
+    font-family: WorkSans;
+    src: url('../fonts/Work_Sans/WorkSans-Regular.ttf');
+}
+@font-face {
+    font-family: WorkSansIta;
+    src: url('../fonts/Work_Sans/WorkSans-Italic.ttf');
+}
+@font-face {
+    font-family: WorkSansLight;
+    src: url('../fonts/Work_Sans/WorkSans-Light.ttf');
+}
+@font-face {
+    font-family: WorkSansExtraLight;
+    src: url('../fonts/Work_Sans/WorkSans-ExtraLight.ttf');
+}
+@font-face {
+    font-family: WorkSansThin;
+    src: url('../fonts/Work_Sans/WorkSans-Thin.ttf');
+}
+@font-face {
+    font-family: WorkSansThinIta;
+    src: url('../fonts/Work_Sans/WorkSans-ThinItalic.ttf');
 }

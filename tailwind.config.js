@@ -12,7 +12,7 @@ module.exports = {
         'cultured' : '#EEEEEE',
       },
       fontFamily: {
-        'Roboto': ['', '', '', '']
+        'Roboto': ['Roboto']
       }
     },
   },

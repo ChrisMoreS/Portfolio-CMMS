@@ -7,6 +7,8 @@
     $user = "AdminCMMS";
     $pass = "Moreno2.";
 
+echo "creardatabase";
+
     try {
         $conn = new PDO("mysql:host=$servername;", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
